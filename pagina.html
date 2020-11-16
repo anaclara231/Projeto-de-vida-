@@ -12,13 +12,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/jpg" href="img/img2.png" />
+    <link rel="icon" type="image/jpg" href="img/logo.png" />
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
     <!-- MENU -->
-    <div class="main" style="width: 100%; height: 20px;">
-        <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #BAE8ED;">
+    <div class="main">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -26,12 +26,12 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>                        
                   </button>
-                    <a class="navbar-brand" href="#myPage"><img src="img/img2.png" height="30px" width="30px" style="padding-bottom: 2%;"></a>
+                    <a class="navbar-brand" href="#myPage"><img src="img/logo.png" height="45px" width="45px" style="padding-bottom: 2%;"></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar" style="width: 100%; margin-left: 5%;">
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right" style="padding-top: 1%;">
                         <li><a href="#sobre">SOBRE</a></li>
-                        <li><a href="#carreira">CARREIRAa</a></li>
+                        <li><a href="#carreira">CARREIRA</a></li>
                         <li><a href="#contato">CONTATO</a></li>
                     </ul>
                 </div>
@@ -41,103 +41,109 @@
     <!-- MENU -->
     <!-- APRESENTAÇÃO -->
     <center>
-        <div class="jumbotron text-center" style="background-color:white;  padding-top: 7%; width: 80%;">
-            <img src="img/imagem3.png" style="float: right; width: 400px; height: 300px; ">
+        <div class="jumbotron text-center"><br>
+            <div>
+                <img src="img/ana.png" style="float: right; width: 400px; height: 375px; ">
+            </div>
             <br>
-            <h1 style="color: #565656;  text-align: left; font-size: 35pt; padding-left: 5%;">Olá, sou a Ana Clara</h1>
-            <p style="color: #565656;  text-align: left; font-size: 15pt; padding-top: 1%;padding-left: 5%; width: 50%;">Sou desenvolvedora Full Stack e esse é meu trabalho final para a conclusão da materia Projeto de vida do curso Proa 4.0</p>
-            <button class="button2" style="margin-left: 5%; background-color:  #F1D071; border: 1px  #F1D071; color:#494949 ;"><a style="text-decoration: none;" href="#proa"> Saiba mais</button></a>
+            <div style="width: 90%;">
+                <br><br><br><br>
+                <h1 id="titulo1">Olá, sou a Ana Clara</h1>
+                <p id="texto1">Sou Desenvolvedora Junior e esse é meu trabalho final para a conclusão da materia Projeto de vida do curso Proa 4.0</p>
+                <a href="#proa"><button class="button2"> Saiba mais</button></a>
+            </div>
         </div>
         </div>
         <!-- APRESENTAÇÃO -->
         <!-- SOBRE -->
     </center>
-    <div style="background-color: #F5F5F5; margin-top: 10%; ">
-        <h1 id="sobre" style="color: #494949;  text-align: center; font-size: 30pt; padding-top: 4%;">SOBRE</h1>
+
+    <div id="divs">
         <center>
-            <div>
-                <iframe id="proa" width="50%" height="350px" style="margin-top: 2%;  float: inherit; " width=" 560 " height="315 " src="https://www.youtube.com/embed/vVntTEY_HJg " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+            <h1 id="sobre" class="titulo3">SOBRE</h1>
+            <div style="width: 98%;">
+                <iframe id="proa" width="50%" height="350px" style="margin-top: 2%;  float: inherit; " src="https://www.youtube.com/embed/VMXgej8nUBo" frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
                picture-in-picture " allowfullscreen></iframe>
+
             </div>
+            <br>
             <hr class="hr1 ">
             <br>
             <!-- Container (Pricing Section) -->
-            <div id="pricing " class="container-fluid " style="width: 90%; ">
-                <div class="row slideanim ">
-                    <div class="col-sm-4 col-xs-12 ">
-                        <div class="panel panel-default text-center ">
-                            <div class="panel-heading " style="background-color: #FDA9A9; ">
-                                <h1>TESTE</h1>
+            <div id="pricing " class="container-fluid ">
+                <center>
+                    <div class="row slideanim ">
+                        <div class="col-sm-4 col-xs-12 ">
+                            <div class="panel panel-default text-center ">
+                                <div class="panel-heading " style="background-color: #FDA9A9; ">
+                                    <h1>TESTE</h1>
+                                </div>
+                                <div class="panel-body ">
+                                    <h3 style="color: black;">ENFP-T</h3>
+                                    <hr style="width: 75%;">
+                                    <p class="texto3">Esse teste diz muito sobre mim, já que tento ser o mais atenta e autêntica possível, sempre buscando uma forma nova de me expressar.</p>
+                                </div>
                             </div>
-                            <div class="panel-body ">
-                                <p><strong>20</strong> Lorem</p>
-                                <p><strong>15</strong> Ipsum</p>
-                                <p><strong>5</strong> Dolor</p>
-                                <p><strong>2</strong> Sit</p>
-                                <p><strong>Endless</strong> Amet</p>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 ">
+                            <div class="panel panel-default text-center ">
+                                <div class="panel-heading " style="background-color: #BAE8ED; ">
+                                    <h1>PROA</h1>
+                                </div>
+                                <div class="panel-body ">
+                                    <h3 style="color: black;">Esperença</h3>
+                                    <hr style="width: 75%;">
+                                    <p class="texto3">O Instituto Proa me mostrou como minhas escolhas remetem quem eu realmente sou e como me vejo no futuro, e me deu uma nova perspectiva.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 ">
+                            <div class="panel panel-default text-center ">
+                                <div class="panel-heading " style="background-color: #F1D071; ">
+                                    <h1>HABILIDADES</h1>
+                                </div>
+                                <div class="panel-body ">
+                                    <h3 style="color: black;">Dedicação</h3>
+                                    <hr style="width: 75%;">
+                                    <p class="texto3">Sou dedicada e sempre me coloco em situações onde posso dar o meu melhor. Dou muito valor a minha criatividade e desenvoltura social.</p>
+
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-xs-12 ">
-                        <div class="panel panel-default text-center ">
-                            <div class="panel-heading " style="background-color: #BAE8ED; ">
-                                <h1>PROA</h1>
-                            </div>
-                            <div class="panel-body ">
-                                <p><strong>50</strong> Lorem</p>
-                                <p><strong>25</strong> Ipsum</p>
-                                <p><strong>10</strong> Dolor</p>
-                                <p><strong>5</strong> Sit</p>
-                                <p><strong>Endless</strong> Amet</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-xs-12 ">
-                        <div class="panel panel-default text-center ">
-                            <div class="panel-heading " style="background-color: #F1D071; ">
-                                <h1>HABILIDADES</h1>
-                            </div>
-                            <div class="panel-body ">
-                                <p><strong>100</strong> Lorem</p>
-                                <p><strong>50</strong> Ipsum</p>
-                                <p><strong>25</strong> Dolor</p>
-                                <p><strong>10</strong> Sit</p>
-                                <p><strong>Endless</strong> Amet</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    <br>
             </div>
     </div>
     </div>
     </div>
     <!-- SOBRE -->
     <!-- CARREIRA -->
-    <h1 id="carreira" style="color: #494949; text-align: center; font-size: 30pt; padding-top: 4%; ">CARREIRA</h1>
-    <h2 style="color: #494949; font-size: 18pt; padding-top: 1%; text-align: center; ">Linha do tempo</h2>
+    <h1 id="carreira" class="titulo3">CARREIRA</h1>
+    <h2 class="titulo33"><b>Linha do tempo</b></h2>
     <hr style=" width: 25%; ">
-    <div class="timeline " style="margin-top: 5%; ">
+    <div class="timeline ">
         <div class="container1 left ">
             <div class="content ">
-                <h2>2020</h2>
-                <p>Concluir o proa e o meu primeiro semestre na faculdade com pelo menos 90% de aproveitação.</p>
+                <h2 class="titulo333">2020</h2>
+                <p class="texto3">Concluir o Proa 4.0 e o meu primeiro semestre na faculdade com pelo menos 90% de aproveitação.</p>
             </div>
         </div>
         <div class="container1 right ">
             <div class="content ">
-                <h2>2021</h2>
-                <p>Me dedicar a faculdade e conseguir um estagio em uma empresa bem reconhecida no meio de tecnologia.</p>
+                <h2 class="titulo333">2021</h2>
+                <p class="texto3">Me dedicar a faculdade e conseguir um estagio em uma empresa bem reconhecida no meio da tecnologia.</p>
             </div>
         </div>
         <div class="container1 left ">
             <div class="content ">
-                <h2>2023</h2>
-                <p>Estar formada na minha faculdade e atuando na área de desenvolvimento de sistemas com foco em FRONT-END.</p>
+                <h2 class="titulo333">2023</h2>
+                <p class="texto3">Estar formada na minha faculdade e atuando na área de desenvolvimento de sistemas com foco em Front-end.</p>
             </div>
         </div>
     </div>
     <center>
-        <h2 id="carreira " style="color: #494949; font-size: 18pt; padding-top: 3%; text-align: center; ">Minhas metas</h2>
+        <h2 id="carreira " style="color: #494949; font-size: 18pt; padding-top: 3%; text-align: center; "><b>Minhas metas</b></h2>
         <hr style=" width: 25%; ">
         <div id="pricing " class="container-fluid " style="width: 90%; margin-top: 3%; margin-bottom: 5%; ">
             <div class="row slideanim ">
@@ -150,11 +156,9 @@
                               <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z "/>
                            </svg>
                         </button>
-                            <h2>PROGRAMAÇÃO</h2>
-                            <p><strong>15</strong> Ipsum</p>
-                            <p><strong>5</strong> Dolor</p>
-                            <p><strong>2</strong> Sit</p>
-                            <p><strong>Endless</strong> Amet</p>
+                            <h3 style="color: black;">PROGRAMAÇÃO</h3>
+                            <hr style="width: 75%;">
+                            <p class="texto3">A Tecnologia pode transformar vidas, assim como aconteceu com a minha. Meu sonho é que todos possam ter a oportunidade de usufruir positivamente dela. </p>
                         </div>
                     </div>
                 </div>
@@ -168,11 +172,9 @@
                                  8.985.936 8 1.783z "/>
                            </svg>
                         </button>
-                            <h2>ESTUDOS</h2>
-                            <p><strong>25</strong> Ipsum</p>
-                            <p><strong>10</strong> Dolor</p>
-                            <p><strong>5</strong> Sit</p>
-                            <p><strong>Endless</strong> Amet</p>
+                            <h3 style="color: black;">ESTUDOS</h3>
+                            <hr style="width: 75%;">
+                            <p class="texto3">Atualmente eu estudo Design Digital na Universidade Anhembi Morumbi com uma bolsa de 100%. Pretendo fazer futuramente um MBA em Full Stack Development na Fiap. </p>
                         </div>
                     </div>
                 </div>
@@ -187,71 +189,116 @@
                                  .708-.708L5.707 9l1.647-1.646a.5.5 0 0 0 0-.708z "/>
                            </svg>
                         </button>
-                            <h2>TRABALHO</h2>
-                            <p><strong>50</strong> Ipsum</p>
-                            <p><strong>25</strong> Dolor</p>
-                            <p><strong>10</strong> Sit</p>
-                            <p><strong>Endless</strong> Amet</p>
+                            <h3 style="color: black;">TRABALHO</h3>
+                            <hr style="width: 75%;">
+                            <p class="texto3">Irei contribuir futuramente para empresas com meu conhecimento e dedicação para desenvolver bons projetos. Sempre tentando ser racional e criativa. </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <h2 id="carreira " style="color: #494949; font-size: 18pt; padding-top: 1%; text-align: center; ">Cronograma</h2>
+            <h2 class="titulo33"><b>Cronograma</b></h2>
             <hr style=" width: 25%; ">
-            <table class="table" style="width: 70%; height: 300px; margin-top: 4%;">
+            <table class="table" style="width: 70%; height: 300px; margin-top: 4%; ">
                 <thead>
                     <tr>
                         <th colspan="2" style="background-color:   #BAE8ED; text-align: center;">CRONOGRAMA DE METAS</th>
                     </tr>
                     <tr>
-                        <th scope="col" style="background-color:  #F1D071; text-align: center;">Objetivo</th>
-                        <th scope="col" style="background-color:  #FDA9A9; text-align: center;">Data</th>
+                        <th scope="col" style="background-color:  #F1D071; text-align: left;">Objetivo</th>
+                        <th scope="col" style="background-color:  #FDA9A9; text-align: left;">Data</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <td>Ganhar o DemoDay </td>
+                        <td>12-2020</td>
                     </tr>
                     <tr>
-                        <td>Thornton</td>
-                        <td>@fat</td>
+                        <td>Terminar o Proa 4.0 </td>
+                        <td>12-2020</td>
                     </tr>
                     <tr>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
+                        <td>Conseguir entrar no mercado de trabalho</td>
+                        <td>01-2021</td>
+                    </tr>
+                    <tr>
+                        <td>Ajudar a minha família</td>
+                        <td> 01-2021</td>
+                    </tr>
+                    <tr>
+                        <td>Ser efetivada</td>
+                        <td>12-2021</td>
+                    </tr>
+                    <tr>
+                        <td>Concluir minha Faculdade</td>
+                        <td>07-2023</td>
+                    </tr>
+                    <tr>
+                        <td>Estar trabalhando em uma empresa internacional</td>
+                        <td>08-2023</td>
+                    </tr>
+                    <tr>
+                        <td>Começar meu MBA</td>
+                        <td>01-2024</td>
                     </tr>
                 </tbody>
             </table>
+
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <h2 class="titulo33"><b>Meu futuro</b></h2>
+        <hr style=" width: 25%; ">
+
+        <div style="width: 73%;">
+            <div class="row">
+
+                <div class="col-md-4" style="width: 50%;">
+                    <h4 style="color: #494949; text-align: center;">Ações</h4>
+                    <p class="texto4">Um dia minha professora Fabiana me disse que eu tinha o perfil para ser professora, na hora eu claramente neguei, já que nunca tinha levado em consideração essa profissão. Porém desde então eu não tiro isso da minha cabeça, cheguei
+                        a conclusão de que quero obter o máximo de conhecimento para que futuramente eu possa passá-lo para frente.</p>
+                </div>
+                <div class="col-md-4" style="width: 50%;">
+                    <h4 style="color:  #494949;text-align: center;">Melhorias</h4>
+                    <p class="texto4">Ainda sou uma pessoa muito jovem, vejo que tenho o mundo de descobertas pela frente. Pretendo amadurecer cada vez mais, e levar aprendizados contínuos das pessoas a minha volta. Tenho que vencer minha ansiedade e lidar com meus problemas
+                        de individualidade, para que eu aproveite melhor a vida social e corporativa. </p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
     </center>
-    </div>
-    </div>
-    </div>
-    </div>
     <!-- CARREIRA -->
     <!-- CONTATO -->
     <div style="background-color: #F5F5F5;">
-        <h1 id="contato" style="color: #494949; text-align: center; font-size: 30pt; padding-top: 3%;">CONTATO</h1>
-        <h2 style="color: #494949; font-size: 18pt; padding-top: 1%; text-align: center; ">Informação para contato</h2>
+        <h1 id="contato" class="titulo3">CONTATO</h1>
+        <h2 class="titulo33">Informação para contato</h2>
         <hr style=" width: 25%; ">
-        <ul style="width: 50%; padding-left: 20%; list-style-type: none; padding-bottom: 5%; padding-top: 2%;">
-            <li style=" background-color: #F5F5F5 ; font-size: 15pt; margin-bottom: 5%;">
-                <button style="width: 50px; height: 50px; border-radius: 50%; background-color: #BAE8ED; border: 1px #BAE8ED; margin-right: 3%; ">
+        <div style="width: 80%;">
+
+
+            <img src="img/ANA2.png" style="float: right; width: 250px; height: 225px; ">
+
+            <ul style="width: 50%; padding-left: 20%; list-style-type: none; padding-bottom: 5%; padding-top: 2%;">
+                <li style=" background-color: #F5F5F5 ; font-size: 15pt; margin-bottom: 5%;">
+                    <button style="width: 50px; height: 50px; border-radius: 50%; background-color: #BAE8ED; border: 1px #BAE8ED; margin-right: 3%; ">
                   <svg width="70% " height="70% " style="color: white; padding-top:25%" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                      <path fill-rule="evenodd" d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
                   </svg>
-               </button> (11) 9 5030-4019
-            </li>
-            <li style=" background-color: #F5F5F5 ; font-size: 15pt; margin-bottom: 5%;">
-                <button style="width: 50px; height: 50px; border-radius: 50%; background-color:#F1D071; border: 1px#F1D071; margin-right: 3%; ">
+               </button> (11)95030-4019
+                </li>
+                <li style=" background-color: #F5F5F5 ; font-size: 15pt; margin-bottom: 5%;">
+                    <button style="width: 50px; height: 50px; border-radius: 50%; background-color:#F1D071; border: 1px#F1D071; margin-right: 3%; ">
                   <svg width="70% " height="70% " style="color: white; padding-top:25%"  viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                      <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
                   </svg>
                   </svg>
-               </button> anapintobr@gmail.com
-            </li>
-            <li style=" background-color: #F5F5F5 ; font-size: 15pt; margin-bottom: 5%;">
-                <button style="width: 50px; height: 50px; border-radius: 50%; background-color: #FDA9A9; border: 1px #FDA9A9; margin-right: 3%; ">
+               </button>anapintobr@gmail.com
+                </li>
+                <li style=" background-color: #F5F5F5 ; font-size: 15pt; margin-bottom: 5%;">
+                    <button style="width: 50px; height: 50px; border-radius: 50%; background-color: #FDA9A9; border: 1px #FDA9A9; margin-right: 3%; ">
                   <svg width="70% " height="70% " style="color: white; padding-top:25%" viewBox="0 0 16 16" class="bi bi-journal-code" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                      <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
                      <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
@@ -259,9 +306,11 @@
                   </svg>
                   </svg>
                </button>
-                <a href="https://www.behance.net/anaclararibeiro4">Portifólio</a>
-            </li>
-        </ul>
+                    <a href="https://www.behance.net/anaclararibeiro4">Portifólio</a>
+                </li>
+            </ul>
+            <br><br>
+        </div>
     </div>
     <script>
         $(document).ready(function() {

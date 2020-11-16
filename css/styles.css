@@ -3,25 +3,99 @@ body {
     color: #818181;
 }
 
-.button1 {
-    width: 180px;
-    height: 30px;
-    background: #F1D071;
-    border-radius: 50px;
-    border: #F1D071;
-    margin-top: 2%;
-    color: #fff;
+main {
+    width: 100%;
+}
+
+.navbar {
+    background-color: #BAE8ED;
+    padding-bottom: 10px;
+}
+
+.jumbotron {
+    background-color: white;
+    padding-top: 7%;
+    width: 80%;
+}
+
+#titulo1 {
+    color: #565656;
+    text-align: left;
+    font-size: 35pt;
+    padding-left: 5%;
+}
+
+#texto1 {
+    color: #565656;
+    text-align: left;
+    font-size: 15pt;
+    padding-top: 1%;
+    padding-left: 5%;
+    width: 100%;
 }
 
 .button2 {
     width: 180px;
     height: 30px;
-    background: #FDA9A9;
-    border-radius: 50px;
-    border: #FDA9A9;
-    color: #fff;
+    border-radius: 28px;
     margin-top: 2%;
-    float: left;
+    margin-right: 42%;
+    background: #F1D071;
+    border: 1px #F1D071;
+    color: #494949;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button2:hover {
+    border: 2px solid #F1D071;
+    background-color: #ffffff;
+    color: #383838;
+}
+
+
+/*   <!-- SOBRE --> */
+
+#divs {
+    background-color: #F5F5F5;
+    margin-top: 10%;
+}
+
+.container-fluid {
+    width: 90%;
+}
+
+.texto3 {
+    font-size: 13pt;
+    text-align: justify;
+    padding: 0% 5% 0% 5%;
+}
+
+.titulo33 {
+    color: #494949;
+    font-size: 18pt;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.titulo3 {
+    color: #494949;
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 4%;
+}
+
+.titulo333 {
+    text-align: justify;
+    padding: 0% 5% 0% 5%;
+}
+
+.texto4 {
+    font-size: 13pt;
+    text-align: justify;
+    width: 90%;
 }
 
 .hr1 {
@@ -37,6 +111,14 @@ body {
     position: relative;
     max-width: 900px;
     margin: 0 auto;
+    margin-top: 5%;
+}
+
+td,
+th {
+    font-size: 13pt;
+    text-align: left;
+    width: 50%;
 }
 
 .timeline::after {
